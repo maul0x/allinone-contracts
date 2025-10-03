@@ -21,4 +21,8 @@ include_storage = true
 include_push_bytes = true
 extra_output = ["storageLayout", "metadata"]
 
+[invariant]
+runs = 256
+depth = 32
+fail_on_revert = true
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
