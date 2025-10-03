@@ -6,4 +6,9 @@ solc = "0.8.26"
 auto_detect_solc = true
 via_ir = true
 
+fs_permissions = [
+    { access = "read", path = "./broadcast" },
+    { access = "read", path = "./reports" },
+]
+
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
