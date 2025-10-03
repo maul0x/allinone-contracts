@@ -7,5 +7,8 @@
   },
   "lib/openzeppelin-contracts": {
     "rev": "49cd64565aafa5b8f6863bf60a30ef015861614c"
+  },
+  "lib/wormhole-solidity-sdk": {
+    "rev": "b9e129e65d34827d92fceeed8c87d3ecdfc801d0"
   }
 }
