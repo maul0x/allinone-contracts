@@ -6,8 +6,8 @@ import "lib/wormhole-solidity-sdk/src/interfaces/IERC20.sol";
 
 contract CrossChainSender is TokenSender {
     uint256 constant GAS_LIMIT = 250_000;
-    
-        constructor(
+
+    constructor(
         address _wormholeRelayer,
         address _tokenBridge,
         address _wormhole
